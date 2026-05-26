@@ -1,11 +1,6 @@
 // ===== このファイルの役割 =====
 // 「名作文学リスト」のデータ（配列）を定義し、外部ファイル（index.html）から
 // 使えるように export するためのモジュールです。
-//
-// やること:
-//   下の `books` 配列を、`books` という名前で named export してください。
-//   （README の指定通りのデータが入っています。中身は書き換えないでください）
-//
 // ヒント:
 //   ・const の前に export を付けるだけでもOK
 //       export const books = [ ... ];
@@ -18,5 +13,4 @@ const books = [
   { title: '人間失格', author: '太宰治' },
 ];
 
-// TODO: 上の `books` を export してください
-
+// 上の `books` を export してください
