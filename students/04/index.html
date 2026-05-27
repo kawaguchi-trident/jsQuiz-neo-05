@@ -39,12 +39,13 @@
   <!-- 重要：type="module" を付けないと import 文は使えません -->
   <script type="module">
     // 下の行に import 文を書いてください
+    import { books } from './data.js';
 
     // ===== ここから下は完成済みです。書き換えないでください =====
     const ul = document.querySelector('.book-list');
     books.forEach(function (book) {
       const li = document.createElement('li');
-      li.textContent = book.title + '（' + book.author + '）';
+      li.textContent = book.title + '(' + book.author + ')';
       ul.appendChild(li);
     });
   </script>
